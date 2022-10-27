@@ -5,11 +5,6 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
-  webpack: (config) => {
-    config.resolve.modules.push(path.resolve('./'));
-
-    return config;
-  },
 };
 
 module.exports = nextConfig;

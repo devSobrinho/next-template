@@ -34,7 +34,7 @@
         "./src/services/*"
       ],
       "@shared/*": [
-        "./src/shared/*"
+        "src/shareds/*"
       ],
       "@store/*": [
         "./src/store/*"
