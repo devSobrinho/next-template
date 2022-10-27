@@ -2,6 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  compiler: {
+    styledComponents: true,
+  },
+  webpack: (config) => {
+    config.resolve.modules.push(path.resolve('./'));
 
-module.exports = nextConfig
+    return config;
+  },
+};
+
+module.exports = nextConfig;
