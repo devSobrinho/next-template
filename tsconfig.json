@@ -21,35 +21,44 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@controllers/*": [
-        "./src/controllers/*"
+      "@shared/*": [
+        "src/shared/*"
       ],
       "@contexts/*": [
-        "./src/contexts/*"
+        "./src/shared/contexts/*"
       ],
       "@mock/*": [
-        "./src/mock/*"
+        "./src/shared/mock/*"
+      ],
+      "@hooks/*": [
+        "./src/shared/hooks/*"
       ],
       "@services/*": [
-        "./src/services/*"
-      ],
-      "@shared/*": [
-        "src/shareds/*"
+        "./src/shared/services/*"
       ],
       "@store/*": [
-        "./src/store/*"
+        "./src/shared/store/*"
       ],
-      "@templates/*": [
-        "./src/template/*"
+      "@utils/*": [
+        "./src/shared/utils/*"
+      ],
+      "@validations/*": [
+        "./src/shared/validations/*"
       ],
       "@config/*": [
         "./src/config/*"
       ],
-      "@utils/*": [
-        "./src/utils/*"
-      ],
       "@components/*": [
         "./src/components/*"
+      ],
+      "@layouts/*": [
+        "./src/layouts/*"
+      ],
+      "@templates/*": [
+        "./src/template/*"
+      ],
+      "@design-system/*": [
+        "./src/design-system/*"
       ],
     }
   },
